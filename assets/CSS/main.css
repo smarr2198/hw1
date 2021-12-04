@@ -1,10 +1,19 @@
 /* Element Selectors */
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgc-boringblue {
+  background-color: rgb(37, 137, 189);
 }
 
 .bgc-steelblue {
   background-color: steelblue;
+}
+
+.d-f {
+  display: flex;
 }
 
 .w-100 {
@@ -17,9 +26,19 @@ body {
 
 .bgc-lightgray {
   background-color: lightgray;
-  padding: 8px;
 }
 
 .p {
   padding: 1.5rem;
+}
+
+.mt {
+  margin-top: 1.5rem;
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .d-f\@lrg {
+    display: flex;
+  }
 }
