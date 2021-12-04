@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+.ai-c {
+  align-items: center;
+}
+
 .bgc-boringblue {
   background-color: rgb(37, 137, 189);
 }
@@ -59,6 +63,18 @@ a {
 
 .mt {
   margin-top: 1.5rem;
+}
+
+.ff-impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fz-2 {
+  font-size: 2rem;
 }
 
 /* media query */
