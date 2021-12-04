@@ -1,0 +1,25 @@
+/* Element Selectors */
+body {
+  margin: 0;
+}
+
+.bgc-steelblue {
+  background-color: steelblue;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bgc-royalblue {
+  background-color: royalblue;
+}
+
+.bgc-lightgray {
+  background-color: lightgray;
+  padding: 8px;
+}
+
+.p {
+  padding: 1.5rem;
+}
