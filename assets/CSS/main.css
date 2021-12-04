@@ -53,6 +53,10 @@ a {
   padding: 1.5rem;
 }
 
+.p0 {
+  padding: 0;
+}
+
 .m0 {
   margin: 0;
 }
@@ -81,5 +85,8 @@ a {
 @media (min-width: 768px) {
   .d-f\@lrg {
     display: flex;
+  }
+  .ml\@lrg {
+    margin-left: 1.5rem;
   }
 }
