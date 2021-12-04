@@ -4,6 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .bgc-boringblue {
   background-color: rgb(37, 137, 189);
 }
@@ -28,8 +32,29 @@ body {
   background-color: lightgray;
 }
 
+.c-white {
+  color: white;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.list-n {
+  list-style: none;
+  text-decoration: none;
+}
+
 .p {
   padding: 1.5rem;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.ml {
+  margin-left: 1.5rem;
 }
 
 .mt {
