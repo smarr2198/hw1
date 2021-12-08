@@ -1,6 +1,6 @@
 /* Element Selectors */
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,8 +53,16 @@ a {
   padding: 1.5rem;
 }
 
+.p\+ {
+  padding: 3rem;
+}
+
 .p0 {
   padding: 0;
+}
+
+.pl {
+  padding-left: 1.5rem;
 }
 
 .m0 {
@@ -73,6 +81,18 @@ a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fx-1 {
+  flex: 1 0 0;
+}
+
+.fxd-c {
+  flex-direction: column;
+}
+
 .fw-700 {
   font-weight: 700;
 }
@@ -81,10 +101,24 @@ a {
   font-size: 2rem;
 }
 
+.h-100vh {
+  height: 100vh;
+}
+
+.mw-60 {
+  max-width: 60rem;
+}
+
 /* media query */
 @media (min-width: 768px) {
   .d-f\@lrg {
     display: flex;
+  }
+  .fg-1\@lrg {
+    flex-grow: 1;
+  }
+  .fg-3\@lrg {
+    flex-grow: 3;
   }
   .ml\@lrg {
     margin-left: 1.5rem;
