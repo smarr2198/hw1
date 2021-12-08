@@ -121,8 +121,8 @@ a {
   .fg-1\@lrg {
     flex-grow: 1;
   }
-  .fg-3\@lrg {
-    flex-grow: 3;
+  .fg-4\@lrg {
+    flex-grow: 4;
   }
   .ml\@lrg {
     margin-left: 1.5rem;
