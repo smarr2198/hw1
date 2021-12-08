@@ -40,6 +40,10 @@ a {
   color: white;
 }
 
+.g {
+  gap: 1.5rem;
+}
+
 .jc-sb {
   justify-content: space-between;
 }
