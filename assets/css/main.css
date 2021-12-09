@@ -20,6 +20,10 @@ a {
   background-color: steelblue;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .d-f {
   display: flex;
 }
@@ -105,12 +109,27 @@ a {
   font-size: 2rem;
 }
 
+.fz-12 {
+  font-size: 1.2rem;
+}
+.fz-s {
+  font-size: small;
+}
+
 .h-100vh {
   height: 100vh;
 }
 
 .mw-60 {
   max-width: 60rem;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
 }
 
 /* media query */
@@ -126,5 +145,14 @@ a {
   }
   .ml\@lrg {
     margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ta-c\@min {
+    text-align: center;
+  }
+  .ai-c\@min {
+    align-items: center;
   }
 }
